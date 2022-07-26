@@ -4,75 +4,101 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Fonts start-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Fonts end-->
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
     <!--Header section-->
-    <header>
-      <a href="./index.html">
-        <img src="./image/logo/Image01.png" alt="logo" width="69px" height="55px" />
+    <header class="header">
+      <a class="header-link" href="./index.html">
+        <img
+          class="header-logo"
+          src="./image/logo/Image01.png"
+          alt="logo"
+          width="69px"
+          height="55px"
+        />
       </a>
-      <nav>
-        <ul>
-          <li>
-            <a href="">О нас</a>
+      <nav class="nav">
+        <ul class="nav-list list">
+          <li class="nav-item">
+            <a class="nav-link link" href="">О нас</a>
           </li>
-          <li>
-            <a href="">Услуги и цены</a>
+          <li class="nav-item">
+            <a class="nav-link link" href="">Услуги и цены</a>
           </li>
-          <li>
-            <a href="">Мастера</a>
+          <li class="nav-item">
+            <a class="nav-link link" href="">Мастера</a>
           </li>
-          <li>
-            <a href="">Контакты</a>
+          <li class="nav-item">
+            <a class="nav-link link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
-      <a href="tel:+380441111111">+38 044 111 11 11</a>
-      <button type="button">онлайн-запись</button>
+      <a class="header-tell link" href="tel:+380441111111">+38 044 111 11 11</a>
+      <button class="headrer-btn" type="button">онлайн-запись</button>
     </header>
     <!--Main section-->
+
     <main>
+      <!--Hero section-->
       <section class="hero">
-        <ul>
-          <li>
-            <a target="_blank" href="https://yuotube.com">Youtube</a>
+        <ul class="hero-list list">
+          <li class="hero-item">
+            <a class="hero-link link" target="_blank" href="https://yuotube.com">Youtube</a>
           </li>
-          <li>
-            <a target="_blank" href="https://instagram.com">Instagram</a>
-          </li>
-        </ul>
-        <p>A hair salon for men in Kyiv</p>
-        <h1>BarberShop</h1>
-        <p>Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.</p>
-        <ul>
-          <li>
-            <a href=""></a>
-          </li>
-          <li>
-            <a href=""></a>
-          </li>
-          <li>
-            <a href=""></a>
+          <li class="hero-item">
+            <a class="hero-link link" target="_blank" href="https://instagram.com">Instagram</a>
           </li>
         </ul>
-        <ul>
-          <li>
-            <button type="button">Назад</button>
+        <p class="hero-text">A hair salon for men in Kyiv</p>
+        <h1 class="hero-titel">BarberShop</h1>
+        <p class="hero-text">
+          Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.
+        </p>
+        <ul class="hero-list list">
+          <li class="hero-item">
+            <a class="hero-link link" href=""></a>
           </li>
-          <li>
-            <button type="button">Вперед</button>
+          <li class="hero-item">
+            <a class="hero-link link" href=""></a>
+          </li>
+          <li class="hero-item">
+            <a class="hero-link link" href=""></a>
+          </li>
+        </ul>
+        <ul class="hero-list list">
+          <li class="hero-item">
+            <button class="hero-btn" type="button">Назад</button>
+          </li>
+          <li class="hero-item">
+            <button class="hero-btn" type="button">Вперед</button>
           </li>
         </ul>
       </section>
+      <!--About section-->
       <section class="about">
-        <ul>
-          <li>
-            <img src="./image/about/Image02.jpg" alt="Бритье бороды" width="270px" height="445px" />
-          </li>
-          <li>
+        <ul class="about-list list">
+          <li class="about-item">
             <img
+              class="about-img"
+              src="./image/about/Image02.jpg"
+              alt="Бритье бороды"
+              width="270px"
+              height="445px"
+            />
+          </li>
+          <li class="about-item">
+            <img
+              class="about-img"
               src="./image/about/Image01.jpg"
               alt="Бритье опасной бритвой"
               width="270px "
@@ -80,22 +106,25 @@
             />
           </li>
         </ul>
-        <p>О НАС</p>
-        <h2>Лучший Барбершоп твоего города</h2>
-        <h3>Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</h3>
-        <p>
+        <p class="about-text">О НАС</p>
+        <h2 class="about-titel">Лучший Барбершоп твоего города</h2>
+        <h3 class="about-subtitele">
+          Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.
+        </h3>
+        <p class="about-text">
           Мы команда, которая никогда не останавливается на достигнутом и жаждет перемен. И когда ты
           попадешь в руки нашего мастера, то уже никогда не сможешь быть прежним. Мы команда,
           которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы усовершенствовать
           каждого, кто к нам приходит!
         </p>
-        <button type="button">онлайн-запись</button>
+        <button class="about-btn" type="button">онлайн-запись</button>
       </section>
+      <!--Price section-->
       <section class="price">
-        <p>Проведи время в компании лучших мастеров</p>
-        <h2>Услуги и цены</h2>
-        <ul>
-          <li>Мужская стрижка от 300 грн.</li>
+        <p class="price-text">Проведи время в компании лучших мастеров</p>
+        <h2 class="price-title">Услуги и цены</h2>
+        <ul class="price-list list">
+          <li class="">Мужская стрижка от 300 грн.</li>
           <li>Стрижка бороды от 200 грн.</li>
           <li>Стрижка усов от 200 грн.</li>
           <li>Бритье опасной бритвой от 200 грн.</li>
